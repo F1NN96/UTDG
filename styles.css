@@ -1,0 +1,69 @@
+/* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering and basic layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    min-height: 100vh;
+}
+
+header {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.game-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+canvas {
+    background-color: #666;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Game Information Section */
+.game-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.game-info p {
+    font-size: 1.2em;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #5b9bd5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#startButton:hover {
+    background-color: #4a8ac2;
+}
